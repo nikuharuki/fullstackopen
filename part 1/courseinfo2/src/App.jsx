@@ -11,6 +11,21 @@ const App = () => {
 
   const totalExercises = content.reduce((total, item) => total + item.exercise, 0);
 
+  const part1 = {
+    name: "Fundamentals of React",
+    exercise: 10
+  }
+
+  const part2 = {
+    name: "Using props to pass data",
+    exercise: 7
+  }
+
+  const part3 = {
+    name: "State of a component",
+    exercise: 14
+  }
+
   return (
     <div>
      <Header course={course} />
